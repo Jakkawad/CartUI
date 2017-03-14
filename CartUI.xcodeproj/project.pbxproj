@@ -12,6 +12,9 @@
 		849F2E5F1E7798EC002DE642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849F2E5D1E7798EC002DE642 /* Main.storyboard */; };
 		849F2E611E7798EC002DE642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849F2E601E7798EC002DE642 /* Assets.xcassets */; };
 		849F2E641E7798EC002DE642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849F2E621E7798EC002DE642 /* LaunchScreen.storyboard */; };
+		849F2E6C1E779936002DE642 /* ButtonCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F2E6B1E779936002DE642 /* ButtonCart.swift */; };
+		849F2E701E779B33002DE642 /* iphone6.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F2E6F1E779B33002DE642 /* iphone6.png */; };
+		849F2E731E779EA2002DE642 /* CartCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F2E721E779EA2002DE642 /* CartCellViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		849F2E601E7798EC002DE642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849F2E631E7798EC002DE642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849F2E651E7798EC002DE642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849F2E6B1E779936002DE642 /* ButtonCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCart.swift; sourceTree = "<group>"; };
+		849F2E6F1E779B33002DE642 /* iphone6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone6.png; sourceTree = "<group>"; };
+		849F2E721E779EA2002DE642 /* CartCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartCellViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +61,48 @@
 			isa = PBXGroup;
 			children = (
 				849F2E591E7798EC002DE642 /* AppDelegate.swift */,
-				849F2E5B1E7798EC002DE642 /* ViewController.swift */,
-				849F2E5D1E7798EC002DE642 /* Main.storyboard */,
+				849F2E6E1E779A21002DE642 /* Controller */,
+				849F2E6D1E779A1A002DE642 /* Style */,
+				849F2E741E77ACB4002DE642 /* View */,
 				849F2E601E7798EC002DE642 /* Assets.xcassets */,
 				849F2E621E7798EC002DE642 /* LaunchScreen.storyboard */,
+				849F2E711E779B35002DE642 /* Image */,
 				849F2E651E7798EC002DE642 /* Info.plist */,
 			);
 			path = CartUI;
+			sourceTree = "<group>";
+		};
+		849F2E6D1E779A1A002DE642 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				849F2E6B1E779936002DE642 /* ButtonCart.swift */,
+			);
+			name = Style;
+			sourceTree = "<group>";
+		};
+		849F2E6E1E779A21002DE642 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				849F2E5B1E7798EC002DE642 /* ViewController.swift */,
+				849F2E721E779EA2002DE642 /* CartCellViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		849F2E711E779B35002DE642 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				849F2E6F1E779B33002DE642 /* iphone6.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		849F2E741E77ACB4002DE642 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				849F2E5D1E7798EC002DE642 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +167,7 @@
 				849F2E641E7798EC002DE642 /* LaunchScreen.storyboard in Resources */,
 				849F2E611E7798EC002DE642 /* Assets.xcassets in Resources */,
 				849F2E5F1E7798EC002DE642 /* Main.storyboard in Resources */,
+				849F2E701E779B33002DE642 /* iphone6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +178,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849F2E731E779EA2002DE642 /* CartCellViewController.swift in Sources */,
 				849F2E5C1E7798EC002DE642 /* ViewController.swift in Sources */,
+				849F2E6C1E779936002DE642 /* ButtonCart.swift in Sources */,
 				849F2E5A1E7798EC002DE642 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
