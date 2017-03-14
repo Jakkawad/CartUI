@@ -14,9 +14,8 @@
 		849F2E641E7798EC002DE642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849F2E621E7798EC002DE642 /* LaunchScreen.storyboard */; };
 		849F2E6C1E779936002DE642 /* ButtonCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F2E6B1E779936002DE642 /* ButtonCart.swift */; };
 		849F2E701E779B33002DE642 /* iphone6.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F2E6F1E779B33002DE642 /* iphone6.png */; };
+		849F2E731E779EA2002DE642 /* CartCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F2E721E779EA2002DE642 /* CartCellViewController.swift */; };
 		849F2E771E77E994002DE642 /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F2E761E77E994002DE642 /* WishlistViewController.swift */; };
-		849F2E7C1E77F549002DE642 /* WishlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F2E7B1E77F549002DE642 /* WishlistTableViewCell.swift */; };
-		849F2E7E1E77F552002DE642 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F2E7D1E77F552002DE642 /* CartTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +28,8 @@
 		849F2E651E7798EC002DE642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849F2E6B1E779936002DE642 /* ButtonCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCart.swift; sourceTree = "<group>"; };
 		849F2E6F1E779B33002DE642 /* iphone6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone6.png; sourceTree = "<group>"; };
+		849F2E721E779EA2002DE642 /* CartCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartCellViewController.swift; sourceTree = "<group>"; };
 		849F2E761E77E994002DE642 /* WishlistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
-		849F2E7B1E77F549002DE642 /* WishlistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishlistTableViewCell.swift; sourceTree = "<group>"; };
-		849F2E7D1E77F552002DE642 /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				849F2E751E77E988002DE642 /* Cart */,
-				849F2E781E77F4A7002DE642 /* Wishlist */,
+				849F2E761E77E994002DE642 /* WishlistViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -113,18 +111,9 @@
 			isa = PBXGroup;
 			children = (
 				849F2E5B1E7798EC002DE642 /* ViewController.swift */,
-				849F2E7D1E77F552002DE642 /* CartTableViewCell.swift */,
+				849F2E721E779EA2002DE642 /* CartCellViewController.swift */,
 			);
 			name = Cart;
-			sourceTree = "<group>";
-		};
-		849F2E781E77F4A7002DE642 /* Wishlist */ = {
-			isa = PBXGroup;
-			children = (
-				849F2E761E77E994002DE642 /* WishlistViewController.swift */,
-				849F2E7B1E77F549002DE642 /* WishlistTableViewCell.swift */,
-			);
-			name = Wishlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,10 +189,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849F2E731E779EA2002DE642 /* CartCellViewController.swift in Sources */,
 				849F2E5C1E7798EC002DE642 /* ViewController.swift in Sources */,
-				849F2E7C1E77F549002DE642 /* WishlistTableViewCell.swift in Sources */,
 				849F2E771E77E994002DE642 /* WishlistViewController.swift in Sources */,
-				849F2E7E1E77F552002DE642 /* CartTableViewCell.swift in Sources */,
 				849F2E6C1E779936002DE642 /* ButtonCart.swift in Sources */,
 				849F2E5A1E7798EC002DE642 /* AppDelegate.swift in Sources */,
 			);

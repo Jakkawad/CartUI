@@ -1,5 +1,5 @@
 //
-//  WishlistViewController.swift
+//  CartCellViewController.swift
 //  CartUI
 //
 //  Created by admin on 3/14/2560 BE.
@@ -8,22 +8,12 @@
 
 import UIKit
 
-class WishlistViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class CartCellViewController: UIViewController {
 
-    @IBOutlet weak var tableView: UITableView!
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell0 = tableView.dequeueReusableCell(withIdentifier: "tableCell0")
-        return cell0!
-    }
+    @IBOutlet weak var imageViewProduct: UIImageView!
+    @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var lblDetail: UILabel!
+    @IBOutlet weak var lblPrice: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
