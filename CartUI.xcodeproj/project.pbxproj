@@ -15,6 +15,7 @@
 		849F2E6C1E779936002DE642 /* ButtonCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F2E6B1E779936002DE642 /* ButtonCart.swift */; };
 		849F2E701E779B33002DE642 /* iphone6.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F2E6F1E779B33002DE642 /* iphone6.png */; };
 		849F2E731E779EA2002DE642 /* CartCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F2E721E779EA2002DE642 /* CartCellViewController.swift */; };
+		849F2E771E77E994002DE642 /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F2E761E77E994002DE642 /* WishlistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		849F2E6B1E779936002DE642 /* ButtonCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCart.swift; sourceTree = "<group>"; };
 		849F2E6F1E779B33002DE642 /* iphone6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone6.png; sourceTree = "<group>"; };
 		849F2E721E779EA2002DE642 /* CartCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartCellViewController.swift; sourceTree = "<group>"; };
+		849F2E761E77E994002DE642 /* WishlistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +85,8 @@
 		849F2E6E1E779A21002DE642 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				849F2E5B1E7798EC002DE642 /* ViewController.swift */,
-				849F2E721E779EA2002DE642 /* CartCellViewController.swift */,
+				849F2E751E77E988002DE642 /* Cart */,
+				849F2E761E77E994002DE642 /* WishlistViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -103,6 +105,15 @@
 				849F2E5D1E7798EC002DE642 /* Main.storyboard */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		849F2E751E77E988002DE642 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				849F2E5B1E7798EC002DE642 /* ViewController.swift */,
+				849F2E721E779EA2002DE642 /* CartCellViewController.swift */,
+			);
+			name = Cart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 			files = (
 				849F2E731E779EA2002DE642 /* CartCellViewController.swift in Sources */,
 				849F2E5C1E7798EC002DE642 /* ViewController.swift in Sources */,
+				849F2E771E77E994002DE642 /* WishlistViewController.swift in Sources */,
 				849F2E6C1E779936002DE642 /* ButtonCart.swift in Sources */,
 				849F2E5A1E7798EC002DE642 /* AppDelegate.swift in Sources */,
 			);
@@ -341,6 +353,7 @@
 				849F2E6A1E7798EC002DE642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
