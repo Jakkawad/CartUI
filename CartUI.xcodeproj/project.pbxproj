@@ -43,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31CBDB971E7892A300BC8704 /* Wishlist */ = {
+			isa = PBXGroup;
+			children = (
+				849F2E761E77E994002DE642 /* WishlistViewController.swift */,
+			);
+			name = Wishlist;
+			sourceTree = "<group>";
+		};
 		849F2E4D1E7798EC002DE642 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				849F2E751E77E988002DE642 /* Cart */,
-				849F2E761E77E994002DE642 /* WishlistViewController.swift */,
+				31CBDB971E7892A300BC8704 /* Wishlist */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
